@@ -1,6 +1,6 @@
-Profile: DispMedicos
+Profile: DispMedicosFalp
 Parent: Device
-Id: DispMedicos
+Id: DispMedicosFalp
 Title: "Dispositivos médicos"
 Description: "Perfil para diferentes dispositivos médicos que puedan estar asociados al paciente"
 
