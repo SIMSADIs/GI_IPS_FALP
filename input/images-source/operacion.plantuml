@@ -1,0 +1,8 @@
+@startuml
+
+actor Usuario
+database Servidor
+Usuario -> Servidor : $summary
+Usuario <- Servidor : Bundle IPS
+
+@enduml

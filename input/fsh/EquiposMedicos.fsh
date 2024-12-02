@@ -10,3 +10,14 @@ Description: "Perfil para diferentes dispositivos médicos que puedan estar asoc
 
 * patient only Reference(Paciente)
 
+Instance: EjDispMedicos
+InstanceOf: DispMedicosFalp
+Usage: #example
+Title: "Ejemplo dispositivos médicos"
+Description: "Perfil para dispositivos medicos que puedan estar asociado al paciente"
+
+* type.coding.system = "http://snomed.info/sct"
+* type.coding.code = #2478003
+* type.coding.display = "Glass eye"
+
+* patient = Reference(EjPacienteinline)

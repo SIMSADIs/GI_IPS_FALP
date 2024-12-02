@@ -8,14 +8,19 @@ Description: "Code system que contiene los codigos para utilizar en el documento
 * ^version = "0.1.0"
 * ^status = #active
 
-* #01 "Problemas"
-* #02 "Alergias"
-* #03 "Medicamentos"
-* #04 "Inmunizaciones"
-* #05 "DispMedicos"
-* #06 "Procedimientos"
-* #07 "Resultados"
-* #08 "SignosVitales"
+* #01 "Documento"
+* #02 "Paciente"
+* #03 "Autor"
+* #04 "Declarante"
+* #05 "Custodio"
+* #06 "Problemas"
+* #07 "Alergias"
+* #08 "Medicamentos"
+* #09 "Inmunizaciones"
+* #10 "DispMedicos"
+* #11 "Procedimientos"
+* #12 "Resultados"
+* #13 "SignosVitales"
 
 ValueSet: VSSeccionesDoc
 Id: VSSeccionesDoc
@@ -27,3 +32,4 @@ Description: "Value Set para definir codigos para secciones del docomento"
 * ^jurisdiction =  urn:iso:std:iso:3166#CL "Chile"
 
 * include codes from system CSSeccionesDoc
+

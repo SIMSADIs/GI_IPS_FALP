@@ -6,7 +6,7 @@
 id: IPSFalp
 canonical: https://IPSFalp.cl
 name: IPS_Falp
-# title: Example Title
+title: GI Resumen IPS FALP
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
 version: 0.1.0
@@ -46,8 +46,18 @@ dependencies:
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 #
-# pages:
-#   index.md:
+pages:
+  index.md:
+    title: Inicio
+  objetivos.md: 
+    title: Objetivos
+  casodeuso.md:
+    title: Casos de uso
+  cambios.md:
+    title: Historial de cambios
+
+
+
 #     title: Example Home
 #   implementation.xml:
 #   examples.xml:
@@ -78,8 +88,11 @@ dependencies:
 # │ property below.                                                                                │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: index.html
-  Artifacts: artifacts.html
+  Inicio: index.html
+  Objetivos: objetivos.html
+  Casos de Uso: casodeuso.html
+  Artefactos: artifacts.html
+  Historial de Cambios: cambios.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
