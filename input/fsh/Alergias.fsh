@@ -3,6 +3,8 @@ Parent: AllergyIntolerance
 Id: AlergiasFalp
 Title: "Alergias e intolerancias"
 Description: "Alergias e intolerancias que puede presentar un paciente0"
+* ^jurisdiction = urn:iso:std:iso:3166#IPSFALP
+
 
 * patient only Reference(Paciente)
 

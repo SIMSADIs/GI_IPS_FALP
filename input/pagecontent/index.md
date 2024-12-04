@@ -26,12 +26,12 @@ En l aparte superior puede ver la barra de menú, donde aparecen las diferentes 
 Los perfiles que fueron diseñados en esta guía son:
 
    * [Alergias](StructureDefinition-AlergiasFalp.html)
-   * [Bundle Resumen](StructureDefintion-BundleResumen.html)
-   * [Dispositivos Medicos](StructureDefintion-DispMedicosFalp.html)
-   * [Documento Resumen](StructureDefintion-Documento.html)
-   * [Medicación](StructureDefintion-PlanMedicacionFalp.html)
-   * [Vacunas](StructureDefintion-VacunasFalp.html)
-   * [Medicación](StructureDefintion-PlanMedicacionFalp.html)
+   * [Bundle Resumen](StructureDefinition-BundleResumen.html)
+   * [Dispositivos Medicos](StructureDefinition-DispMedicosFalp.html)
+   * [Documento Resumen](StructureDefinition-Documento.html)
+   * [Medicación](StructureDefinition-PlanMedicacionFalp.html)
+   * [Vacunas](StructureDefinition-VacunasFalp.html)
+   * [Medicación](StructureDefinition-PlanMedicacionFalp.html)
 
 
 ### Dependencias
