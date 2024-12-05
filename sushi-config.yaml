@@ -14,7 +14,7 @@ fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2024+
 releaseLabel: ci-build
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: EstebanFredes
   # url: http://example.org/example-publisher
@@ -26,7 +26,7 @@ publisher:
 #
 dependencies:
   hl7.fhir.cl.clcore: 1.9.1
-  hl7.fhir.cl.falpcore: dev
+  hl7.fhir.uv.falpcore: dev
   hl7.fhir.cl.clips: 0.2.0
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
