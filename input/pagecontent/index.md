@@ -7,7 +7,7 @@ La guía de implementación de resumen IPS, busca entregar los perfiles mínimos
 
 ### Cómo leer esta guía
 
-En l aparte superior puede ver la barra de menú, donde aparecen las diferentes secciones o páginas de esta guía:
+En la parte superior puede ver la barra de menú, donde aparecen las diferentes secciones o páginas de esta guía:
 
 * [Inicio](index.html): Entrega información general acerca de la guía.
 * [Objetivos](objetivos.html): Describe los objeivos de la guía, su función y como un acercamiento a como debe ser usada.
@@ -16,7 +16,7 @@ En l aparte superior puede ver la barra de menú, donde aparecen las diferentes 
     * [Perfiles](artifacts.html#structures-resource-profiles): Perfiles IPS generados para la guía. 
     * [ValueSets](artifacts.html#terminology-value-sets): ValueSet creados para funcionamientos de la guía.
     * [CodeSystems](artifacts.html#terminology-code-systems): Codesystem creados para funcionamientos de la guía.
-    * [Ejemplos](artifacts.html#example-example-instances): Instancias creadas como ejemplo de los doferentes perfiles de la guía.
+* [Ejemplos](artifacts.html#example-example-instances): Instancias creadas como ejemplo de los doferentes perfiles de la guía.
 * [Historial de cambios](cambios.html): Historial de cambios o versiones que has sido realizados en la guía a lo largo del tiempo.
 
 ### Perfiles 
