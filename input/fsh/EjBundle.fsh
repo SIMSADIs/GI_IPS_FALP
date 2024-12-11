@@ -40,38 +40,38 @@ Description: "Perfil para ejemplo de documento resumen IPS"
 * type.coding.display = "Patient summary Document"
 
 * title = "Resumen Paciente"
-* subject = Reference(31ab6790-6317-425a-b7a3-edb648cf0333)
+* subject = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333)
 
 * date = "2024-05-20"
 
-* author = Reference(90da7da8-2889-4f8c-bb61-caaca824c2e5)
-* custodian = Reference(edd68f7a-7959-4e1b-b0d2-1ad125e0c6a6)
+* author = Reference(urn:uuid:90da7da8-2889-4f8c-bb61-caaca824c2e5)
+* custodian = Reference(urn:uuid:edd68f7a-7959-4e1b-b0d2-1ad125e0c6a6)
 
 * section[Problemas].title = "Problemas"
 * section[Problemas].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
 * section[Problemas].code.coding.code = #06 "Problemas"
-* section[Problemas].entry = Reference(0b847f67-171d-47ff-95ba-0b48076d9d36)
+* section[Problemas].entry = Reference(urn:uuid:0b847f67-171d-47ff-95ba-0b48076d9d36)
 
 
 * section[Alergias].title = "Alergías e intolerancias"
 * section[Alergias].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
 * section[Alergias].code.coding.code = #07 "Alergias"
-* section[Alergias].entry = Reference(b8c19955-0196-4500-bf9c-3298385d833e)
+* section[Alergias].entry = Reference(urn:uuid:b8c19955-0196-4500-bf9c-3298385d833e)
 
 * section[Medicamentos].title = "Medicamentos"
 * section[Medicamentos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
 * section[Medicamentos].code.coding.code = #08 "Medicamentos"
-* section[Medicamentos].entry = Reference(2d4d83a5-dfbe-4408-8ea1-f4265996e1a3)
+* section[Medicamentos].entry = Reference(urn:uuid:2d4d83a5-dfbe-4408-8ea1-f4265996e1a3)
 
 * section[Inmunizaciones].title = "Vacunas e inmunizaciones"
 * section[Inmunizaciones].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
 * section[Inmunizaciones].code.coding.code = #09 "inmunizaciones"
-* section[Inmunizaciones].entry = Reference(8ecf7017-9a34-47c9-a2aa-d96b4416e573)
+* section[Inmunizaciones].entry = Reference(urn:uuid:8ecf7017-9a34-47c9-a2aa-d96b4416e573)
 
 * section[DispMedicos].title = "Dispositivos médicos"
 * section[DispMedicos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
 * section[DispMedicos].code.coding.code = #10 "DispMedicos"
-* section[DispMedicos].entry = Reference(16145315-f6a6-4ed4-acf3-192f8a8adb70)
+* section[DispMedicos].entry = Reference(urn:uuid:16145315-f6a6-4ed4-acf3-192f8a8adb70)
 
 Instance: 31ab6790-6317-425a-b7a3-edb648cf0333
 InstanceOf: Paciente 
@@ -231,7 +231,7 @@ Description: "An example Historia Clínica instance."
 * clinicalStatus.coding.code = #active
 
 //* id = "example-HistoriaClinica"
-* subject = Reference(31ab6790-6317-425a-b7a3-edb648cf0333) 
+* subject = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333) 
 
 * onsetDateTime = "2024-08-02"
 
@@ -250,7 +250,7 @@ Usage: #inline
 Title: "Ejemplo alergías"
 Description: "Ejemplo de perfil alergías para la FALP"
 
-* patient = Reference(31ab6790-6317-425a-b7a3-edb648cf0333)
+* patient = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333)
 
 * clinicalStatus.coding.system = "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
 * clinicalStatus.coding.code = #active
@@ -275,7 +275,7 @@ Title: "Ejemplo plan de medicamento FALP"
 Description: "Ejemplo para perfil de plan de medicación falp"
 
 * status = #active
-* subject = Reference(31ab6790-6317-425a-b7a3-edb648cf0333)
+* subject = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333)
 
 * medicationCodeableConcept.coding.system = "http://snomed.info/sct"
 * medicationCodeableConcept.coding.code = #7904003
@@ -310,7 +310,7 @@ Usage: #inline
 Title: "Ejemplo Vacunas"
 Description: "Perfil para ejemplo vacunas y tolerancia"
 
-* patient = Reference(31ab6790-6317-425a-b7a3-edb648cf0333)
+* patient = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333)
 
 * status = #completed 
 
@@ -344,5 +344,5 @@ Description: "Perfil para dispositivos medicos que puedan estar asociado al paci
 * type.coding.code = #2478003
 * type.coding.display = "Glass eye"
 
-* patient = Reference(31ab6790-6317-425a-b7a3-edb648cf0333)
+* patient = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333)
 
