@@ -4,6 +4,7 @@ Usage: #example
 Title: "Ejemplo Bundle Resumen"
 Description: "Ejemplo para perfil de bundle resumen IPS"
 
+* identifier.system = "urn:uuid:461a3317-1bae-4637-96e8-b75aa2f6d29c"
 * identifier.value = "29382"
 * type = #document
 * timestamp = "2024-05-28T22:12:21Z"

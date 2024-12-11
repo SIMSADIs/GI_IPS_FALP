@@ -1,4 +1,4 @@
-### Introcucción 
+### Introducción 
 
 Esta guía, en conjunto con todas las guías de implementación de la Fundación Arturo López Pérez, están basadas en el estándar [HL7 FHIR R4].
 Ellas buscan modelar de manera interoperable el viaje del paciente, con el fin de realizar un seguimiento oportuno de los pacientes.
