@@ -53,6 +53,8 @@ pages:
     title: Objetivos
   casodeuso.md:
     title: Casos de uso
+  artifacts.md:
+    title: Artefactos
   cambios.md:
     title: Historial de cambios
 
