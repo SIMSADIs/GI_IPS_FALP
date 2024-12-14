@@ -24,7 +24,7 @@ Description: "Perfil de documento "
 * date 1..1
 * author only Reference(PrestadorIndividual)
 * attester MS
-  * party only Reference(PrestadorIndividual)
+  * party only Reference(PrestadorIndividual or Paciente)
 * custodian only Reference(Organizacion)
 
 * section 0..* 
@@ -50,7 +50,7 @@ Description: "Perfil de documento "
 * section[Problemas]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
   * code = CSSeccionesDoc#06
-  * entry only Reference(DiagnosticoPrevio)
+  * entry only Reference(CondicionClinica)
 
 * section[Alergias]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"

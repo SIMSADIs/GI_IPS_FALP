@@ -33,16 +33,17 @@ Los perfiles que fueron diseñados en esta guía son:
    * [Vacunas](StructureDefinition-VacunasFalp.html)
    * [Medicación](StructureDefinition-PlanMedicacionFalp.html)
 
-
 ### Dependencias
 
 {% include dependency-table.xhtml %}
 
+### Autores
+
+  * Esteban Fredes
 
 ### Análisis de versiones cruzadas
 
 {% include cross-version-analysis.xhtml %}
-
 
 ### Declaracion de propiedad intelectual
 

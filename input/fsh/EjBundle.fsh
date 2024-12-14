@@ -223,7 +223,7 @@ Description: "An example Organización instance."
 * address.state.extension.valueCodeableConcept.coding.code = #13 "RegionMetropolitana"
 
 Instance: 0b847f67-171d-47ff-95ba-0b48076d9d36
-InstanceOf: DiagnosticoPrevio
+InstanceOf: CondicionClinica
 Usage: #inline
 Title: "Example-HistoriaClínica"
 Description: "An example Historia Clínica instance."  

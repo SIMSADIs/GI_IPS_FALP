@@ -82,7 +82,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only Condition
+  * resource only CondicionClinica
 
 * entry[Alergias] 
   * ^short = "Sección alergías"
