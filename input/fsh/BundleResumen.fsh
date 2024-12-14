@@ -15,7 +15,7 @@ Description: "Bundle del documento para resumen"
   * ^slicing.discriminator[=].path = "resource"
   * ^slicing.discriminator[+].type = #profile
   * ^slicing.discriminator[=].path = "resource"
-  * ^slicing.rules = #closed
+  * ^slicing.rules = #open
   * ^slicing.description = "Entradas del bundle que refenciarán a las diferentes seccciones del documento."
   * ^slicing.ordered = false 
 
