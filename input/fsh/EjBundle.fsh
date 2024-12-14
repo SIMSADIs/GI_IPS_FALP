@@ -228,11 +228,16 @@ Usage: #inline
 Title: "Example-HistoriaClínica"
 Description: "An example Historia Clínica instance."  
 
+* subject = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333) 
+
 * clinicalStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-clinical"
 * clinicalStatus.coding.code = #active
 
-//* id = "example-HistoriaClinica"
-* subject = Reference(urn:uuid:31ab6790-6317-425a-b7a3-edb648cf0333) 
+* verificationStatus.coding.system = "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+* verificationStatus.coding.code = #confirmed
+
+* category.coding.system = "http://terminology.hl7.org/CodeSystem/condition-category"
+* category.coding.code = #problem-list-item 
 
 * onsetDateTime = "2024-08-02"
 
