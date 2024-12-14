@@ -66,7 +66,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only PrestadorIndividual
+  * resource only PrestadorIndividual 
 
 * entry[Custodio] 
   * ^short = "Sección Custodio"
@@ -130,7 +130,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only Condition
+  * resource only DiagnosticReport
 
 * entry[SignosVitales] 
   * ^short = "Sección para signos vitales"
