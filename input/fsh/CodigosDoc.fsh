@@ -3,7 +3,7 @@ Id: CSSeccionesDoc
 Title: "CSSeccionesDoc"
 Description: "Code system que contiene los codigos para utilizar en el documento para determinar cual sección representará"
 * ^caseSensitive = true
-* ^experimental = true 
+* ^experimental = false 
 * ^jurisdiction =  urn:iso:std:iso:3166#CL "Chile"
 * ^version = "0.1.0"
 * ^status = #active
@@ -28,7 +28,7 @@ Title: "VSSeccionesD"
 Description: "Value Set para definir codigos para secciones del docomento"
 * ^version = "0.1.0"
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^jurisdiction =  urn:iso:std:iso:3166#CL "Chile"
 
 * include codes from system CSSeccionesDoc
