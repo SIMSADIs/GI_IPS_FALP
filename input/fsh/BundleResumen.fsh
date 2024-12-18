@@ -25,7 +25,7 @@ Description: "Bundle del documento para resumen"
     Documento 1..1 MS and
     Paciente 1..1 MS and
     Autor 0..1 MS and
-    Declarante 0..1 MS and
+//    Declarante 0..1 MS and
     Custodio 0..* MS and
     Problemas 0..* MS and
     Alergias 0..* MS and
@@ -60,13 +60,13 @@ Description: "Bundle del documento para resumen"
   * resource 1..1 
   * resource only PrestadorIndFalp
 
-* entry[Declarante] 
+/** entry[Declarante] 
   * ^short = "Sección declarante"
   * ^definition = "Sección de quien valida el documento"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only PrestadorIndFalp
+  * resource only PrestadorIndFalp*/
 
 * entry[Custodio] 
   * ^short = "Sección Custodio"

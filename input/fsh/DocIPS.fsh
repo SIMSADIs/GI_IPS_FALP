@@ -23,8 +23,8 @@ Description: "Perfil de documento "
 
 * date 1..1
 * author only Reference(PrestadorIndFalp)
-* attester MS
-  * party only Reference(PrestadorIndFalp or PacienteFalp)
+//* attester MS
+//  * party only Reference(PrestadorIndFalp or PacienteFalp)
 * custodian only Reference(Organizacion)
 
 * section 0..* 
