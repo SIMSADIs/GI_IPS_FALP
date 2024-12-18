@@ -49,33 +49,33 @@ Description: "Perfil para ejemplo de documento resumen IPS"
 * custodian = Reference(urn:uuid:edd68f7a-7959-4e1b-b0d2-1ad125e0c6a6)
 
 * section[Problemas].title = "Problemas"
-* section[Problemas].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Problemas].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Problemas].code.coding.code = #06 "Problemas"
 * section[Problemas].entry = Reference(urn:uuid:0b847f67-171d-47ff-95ba-0b48076d9d36)
 
 
 * section[Alergias].title = "Alergías e intolerancias"
-* section[Alergias].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Alergias].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Alergias].code.coding.code = #07 "Alergias"
 * section[Alergias].entry = Reference(urn:uuid:b8c19955-0196-4500-bf9c-3298385d833e)
 
 * section[Medicamentos].title = "Medicamentos"
-* section[Medicamentos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Medicamentos].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Medicamentos].code.coding.code = #08 "Medicamentos"
 * section[Medicamentos].entry = Reference(urn:uuid:2d4d83a5-dfbe-4408-8ea1-f4265996e1a3)
 
 * section[Inmunizaciones].title = "Vacunas e inmunizaciones"
-* section[Inmunizaciones].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Inmunizaciones].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Inmunizaciones].code.coding.code = #09 "inmunizaciones"
 * section[Inmunizaciones].entry = Reference(urn:uuid:8ecf7017-9a34-47c9-a2aa-d96b4416e573)
 
 * section[DispMedicos].title = "Dispositivos médicos"
-* section[DispMedicos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[DispMedicos].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[DispMedicos].code.coding.code = #10 "DispMedicos"
 * section[DispMedicos].entry = Reference(urn:uuid:16145315-f6a6-4ed4-acf3-192f8a8adb70)
 
 Instance: 31ab6790-6317-425a-b7a3-edb648cf0333
-InstanceOf: Paciente 
+InstanceOf: PacienteFalp
 Usage: #inline
 Title: "Ejemplo paciente FALP"
 Description: "Ejemplo de un paciente con las necesidades de la FALP"
@@ -153,7 +153,7 @@ Description: "Ejemplo de un paciente con las necesidades de la FALP"
 * contact.telecom[0].use = #home
 
 Instance: 90da7da8-2889-4f8c-bb61-caaca824c2e5
-InstanceOf: PrestadorIndividual
+InstanceOf: PrestadorIndFalp
 Usage: #inline
 Title: "Example Prestador Individual"
 Description: "An example Prestador individual instance." 
@@ -245,7 +245,7 @@ Description: "An example Historia Clínica instance."
 * code.coding.code = #1648002
 * code.coding.display = "Lymphocytic pseudotumor of lung"
 
-* severity.coding.system = "https://FALP.cl/CodeSystem/CSseveridadDiagnostica"
+* severity.coding.system = "https://falp.cl/fhir/ig/corefalp/CodeSystem/CSseveridadDiagnostica""
 * severity.coding.code = #MODERADO "MODERADO"
 
 * note.text = "Pulmón derecho"

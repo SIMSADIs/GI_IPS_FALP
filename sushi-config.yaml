@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.cl.IPSFalp
-canonical: https://IPSFalp.cl
+canonical: https://falp.cl/fhir/ig/IPSFalp
 name: IPS_Falp
 title: GI Resumen IPS FALP
 # description: Example Implementation Guide for getting started with SUSHI
@@ -26,7 +26,7 @@ publisher:
 #
 dependencies:
   hl7.fhir.cl.clcore: 1.9.1
-  hl7.fhir.cl.falpcore: dev
+  hl7.fhir.cl.corefalp: dev
   hl7.fhir.cl.clips: 0.2.0
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:

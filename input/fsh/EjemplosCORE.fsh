@@ -1,5 +1,5 @@
 Instance: EjPacienteinline
-InstanceOf: Paciente 
+InstanceOf: PacienteFalp 
 Usage: #example
 Title: "Ejemplo paciente FALP"
 Description: "Ejemplo de un paciente con las necesidades de la FALP"
@@ -78,7 +78,7 @@ Description: "Ejemplo de un paciente con las necesidades de la FALP"
 
 
 Instance: EjPrestadorIndividual
-InstanceOf: PrestadorIndividual
+InstanceOf: PrestadorIndFalp
 Usage: #Example 
 Title: "Example Prestador Individual"
 Description: "An example Prestador individual instance." 

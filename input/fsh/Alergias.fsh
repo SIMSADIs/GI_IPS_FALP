@@ -6,7 +6,7 @@ Description: "Alergias e intolerancias que puede presentar un paciente0"
 * ^jurisdiction = urn:iso:std:iso:3166#IPSFALP
 
 
-* patient only Reference(Paciente)
+* patient only Reference(PacienteFalp)
 
 * clinicalStatus 0..1 
 * verificationStatus 0..1

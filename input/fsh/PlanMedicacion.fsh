@@ -5,7 +5,7 @@ Title: "Plan de medicación"
 Description: "Perfil donde se modelan los medicamentos que toma el paciente"
 
 * subject 1..1 MS
-* subject only Reference(Paciente)
+* subject only Reference(PacienteFalp)
 
 * medicationCodeableConcept 1..1 
 * medicationCodeableConcept from http://hl7.org/fhir/ValueSet/medication-codes

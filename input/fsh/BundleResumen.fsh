@@ -50,7 +50,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only Paciente
+  * resource only PacienteFalp
 
 * entry[Autor] 
   * ^short = "Sección autor"
@@ -58,7 +58,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only PrestadorIndividual
+  * resource only PrestadorIndFalp
 
 * entry[Declarante] 
   * ^short = "Sección declarante"
@@ -66,7 +66,7 @@ Description: "Bundle del documento para resumen"
   * fullUrl 1..1
     * ^short = "Uri de identificación dentro del Bundle"
   * resource 1..1 
-  * resource only PrestadorIndividual 
+  * resource only PrestadorIndFalp
 
 * entry[Custodio] 
   * ^short = "Sección Custodio"

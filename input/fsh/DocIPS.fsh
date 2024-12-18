@@ -1,4 +1,4 @@
-//Alias: $CodSeccion = https://IPSFalp.cl/CodeSystem/CSSeccionesDoc
+Alias: $CodSeccion = https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc
 
 Profile: Documento
 Parent: Composition
@@ -19,12 +19,12 @@ Description: "Perfil de documento "
 
 * subject 1..1
   * ^short = "Paciente al que corresponde el documento"
-* subject only Reference(Paciente)
+* subject only Reference(PacienteFalp)
 
 * date 1..1
-* author only Reference(PrestadorIndividual)
+* author only Reference(PrestadorIndFalp)
 * attester MS
-  * party only Reference(PrestadorIndividual or Paciente)
+  * party only Reference(PrestadorIndFalp or PacienteFalp)
 * custodian only Reference(Organizacion)
 
 * section 0..* 
@@ -49,42 +49,42 @@ Description: "Perfil de documento "
 
 * section[Problemas]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#06
+  * code = $CodSeccion#06
   * entry only Reference(CondicionClinica)
 
 * section[Alergias]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#07
+  * code = $CodSeccion#07
   * entry only Reference(AlergiasFalp)
 
 * section[Medicamentos]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#08
+  * code = $CodSeccion#08
   * entry only Reference(PlanMedicacionFalp)
 
 * section[Inmunizaciones]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#09
+  * code = $CodSeccion#09
   * entry only Reference(VacunasFalp)
 
 * section[DispMedicos]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#10
+  * code = $CodSeccion#10
   * entry only Reference(DispMedicosFalp)
 
 * section[Procedimientos]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#11
+  * code = $CodSeccion#11
   //* entry only Reference(Procedimientos)
 
 * section[Resultados]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#12
+  * code = $CodSeccion#12
   //* entry only Reference(Resultados)
 
 * section[SignosVitales]
   * ^definition = "Sección dedicada a las alergias e intolerancias que presenta el paciente"
-  * code = CSSeccionesDoc#13
+  * code = $CodSeccion#13
   //* entry only Reference(SignosVitales)
 
 
@@ -108,26 +108,26 @@ Description: "Perfil para ejemplo de documento resumen IPS"
 * custodian = Reference(EjOrganizacion)
 
 /** section[Problemas].title = "Problemas"
-* section[Problemas].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Problemas].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Problemas].code.coding.code = #01 "Problemas"
 * section[Problemas].entry = Reference()*/
 
 * section[Alergias].title = "Alergías e intolerancias"
-* section[Alergias].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Alergias].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Alergias].code.coding.code = #07 "Alergias"
 * section[Alergias].entry = Reference(EjAlergia)
 
 * section[Medicamentos].title = "Medicamentos"
-* section[Medicamentos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Medicamentos].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Medicamentos].code.coding.code = #08 "Medicamentos"
 * section[Medicamentos].entry = Reference(EjPlanMedicacion)
 
 * section[Inmunizaciones].title = "Vacunas e inmunizaciones"
-* section[Inmunizaciones].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[Inmunizaciones].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[Inmunizaciones].code.coding.code = #09 "inmunizaciones"
 * section[Inmunizaciones].entry = Reference(EjVacunas)
 
 * section[DispMedicos].title = "Dispositivos médicos"
-* section[DispMedicos].code.coding.system = "https://IPSFalp.cl/CodeSystem/CSSeccionesDoc"
+* section[DispMedicos].code.coding.system = "https://falp.cl/fhir/ig/IPSFalp/CodeSystem/CSSeccionesDoc"
 * section[DispMedicos].code.coding.code = #10 "DispMedicos"
 * section[DispMedicos].entry = Reference(EjDispMedicos)

@@ -4,7 +4,7 @@ Id: VacunasFalp
 Title: "Vacunas e inmunizaciones"
 Description: "Perfil para inmunización y vacunas que el paciente ha recibido"
 
-* patient only Reference(Paciente)
+* patient only Reference(PacienteFalp)
 
 * vaccineCode 1..1 
 * vaccineCode from https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas
